@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-davidmcg_mvc4Attendee-20121115183547;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-davidmcg_mvc4Attendee-20121115183547.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\davidmcg\\documents\\visual\ studio\ 2012\\Projects\\davidmcg-mvc4Attendee\\davidmcg-mvc4Attendee\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="AttendeeContext-Web.config Connection String" description="AttendeeContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:o6g9ukhmnb.database.windows.net;Initial Catalog=MVC4Attendee;User ID=david;Password=Password12" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\davidmcg\\documents\\visual\ studio\ 2012\\Projects\\davidmcg-mvc4Attendee\\davidmcg-mvc4Attendee\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AttendeeContext']/@connectionString" />
+  </parameter>
+</parameters>
